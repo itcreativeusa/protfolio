@@ -3,10 +3,10 @@
 ## Description
 
 Deployed application link on GitHub
-https://github.com/itcreativeusa/protfolio
+https://github.com/itcreativeusa/portfolio/
 
 Deployed application link on GitHub Pages
-https://itcreativeusa.github.io/protfolio/
+https://itcreativeusa.github.io/portfolio/
 
 A single-page application web developer portfolio. Application use React to render content. This portfolio helps not only to share projects for applying for jobs or working as a freelancer but also to share work with other developers and collaborate on projects.
 Appllication contain: About Me, All Projects, Contact, and Resume sections.
