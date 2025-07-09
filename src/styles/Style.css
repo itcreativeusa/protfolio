@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;800&display=swap");
+
+/* header */
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../../public/menu-bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  transition: color 0.3s; /* Smooth transition on color change */
+}
+.header h1 {
+  margin: 0;
+  padding-top: 75px;
+  text-align: center;
+}
+a {
+  color: #ff3b83;
+}
+/* Navbar styles */
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.nav-link {
+  text-decoration: underline;
+  color: white;
+}
+
+.navbar-toggler {
+  margin-top: 20px;
+}
+.nav-link:hover {
+  color: #ff3b83;
+}
+
+/* Github Link styles */
+#githubLink {
+  background-color: #333;
+  border: white 1px solid;
+}
+footer p {
+  text-transform: uppercase;
+}
+
+#githubLink:hover {
+  background-color: #44cc77;
+  border: #333 1px solid;
+  color: #333;
+}
+
+/* Card styles */
+.card-body {
+  position: relative;
+}
+
+#linkedin:hover,
+#github:hover {
+  color: #ff3b83;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+  /* Header styles */
+  .header {
+    height: 100px;
+  }
+  .header h1 {
+    padding-top: 25px;
+    font-size: 2rem;
+  }
+
+  /* Navbar styles */
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-item {
+    padding: 10px 0;
+  }
+}
+.navbar-toggler-icon {
+  background-color: white;
+  border-radius: 15%;
+}
+
+/* Styles for smaller screens (mobile) */
+@media (max-width: 767px) {
+  /* Header styles */
+  .heading {
+    height: 300px; /* Adjust the height for smaller screens */
+  }
+
+  .link {
+    font-size: 2rem; /* Adjust the font size for smaller screens */
+  }
+}
