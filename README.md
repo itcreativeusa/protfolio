@@ -3,7 +3,7 @@
 ## Description
 
 Deployed application link on GitHub
-https://github.com/itcreativeusa/portfolio
+https://github.com/itcreativeusa/protfolio
 
 Deployed application link on GitHub Pages
 https://itcreativeusa.github.io/protfolio/
